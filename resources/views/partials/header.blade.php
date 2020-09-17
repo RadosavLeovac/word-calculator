@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark py-4 bg-custom shadow mb-5">
-    <a class="navbar-brand" href="#">Word Counter</a>
+    <a class="navbar-brand" href="#">Word  Counter & Calculator</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
