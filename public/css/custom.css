@@ -1,0 +1,19 @@
+.bg-custom {
+    background-color: rgb(88, 80, 236);
+}
+.indigo {
+    color: rgb(88, 80, 236) !important;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 150px; /* Margin bottom by footer height */
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footer img {
+    max-height: 20px;
+}
