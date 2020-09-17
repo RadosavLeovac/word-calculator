@@ -4,8 +4,11 @@
 .indigo {
     color: rgb(88, 80, 236) !important;
 }
+h1 {
+    font-weight: 900;
+}
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 150px; /* Margin bottom by footer height */
 }
 .footer {

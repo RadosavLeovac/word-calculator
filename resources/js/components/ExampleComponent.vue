@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 mb-3">
-                <h1 class="font-weight-bold"> Word Counter and Calculator </h1>
+                <h1 class=""> Word Counter and Calculator </h1>
                 <p class="h2 indigo font-weight-bold">Easily calculate the number of the words and your rate.</p>
                 <hr class="shadow">
             </div>

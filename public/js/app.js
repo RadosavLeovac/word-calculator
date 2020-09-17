@@ -37650,9 +37650,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-12 mb-3" }, [
-      _c("h1", { staticClass: "font-weight-bold" }, [
-        _vm._v(" Word Counter and Calculator ")
-      ]),
+      _c("h1", {}, [_vm._v(" Word Counter and Calculator ")]),
       _vm._v(" "),
       _c("p", { staticClass: "h2 indigo font-weight-bold" }, [
         _vm._v("Easily calculate the number of the words and your rate.")
