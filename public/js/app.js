@@ -1912,29 +1912,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -37549,126 +37526,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [
-    _c("div", { staticClass: "row justify-content-center" }, [
-      _vm._m(0),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-12" }, [
-        _c(
-          "div",
-          {
-            staticClass: "alert alert-primary shadow-sm mb-3 h3 font",
-            attrs: { role: "alert" }
-          },
-          [
-            _vm._v("\n                Words: "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v(_vm._s(_vm.wcount) + " |")
-            ]),
-            _vm._v(" Characters: "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v(_vm._s(_vm.ccount) + " |")
-            ]),
-            _vm._v(" Sentences: "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v(_vm._s(_vm.scount))
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _vm._m(1),
-          _vm._v(" "),
-          _c("input", {
-            directives: [
-              {
-                name: "model",
-                rawName: "v-model",
-                value: _vm.rate,
-                expression: "rate"
-              }
-            ],
-            staticClass: "form-control shadow-sm mb-3",
-            attrs: { id: "rate", type: "number" },
-            domProps: { value: _vm.rate },
-            on: {
-              input: [
-                function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.rate = $event.target.value
-                },
-                function($event) {
-                  return _vm.charCount()
-                }
-              ]
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "h4" }, [
-            _vm._v("Total amount: " + _vm._s(_vm.price) + " "),
-            _c("small", { staticClass: "text-muted" }, [_vm._v("EUR / USD")])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "form-group" }, [
-          _c("label", { attrs: { for: "input" } }),
-          _vm._v(" "),
-          _c("textarea", {
-            directives: [
-              {
-                name: "model",
-                rawName: "v-model",
-                value: _vm.userinput,
-                expression: "userinput"
-              }
-            ],
-            staticClass: "form-control shadow",
-            attrs: { name: "", id: "input", cols: "30", rows: "15" },
-            domProps: { value: _vm.userinput },
-            on: {
-              keyup: function($event) {
-                return _vm.charCount()
-              },
-              input: function($event) {
-                if ($event.target.composing) {
-                  return
-                }
-                _vm.userinput = $event.target.value
-              }
-            }
-          })
-        ])
-      ])
-    ])
-  ])
+  return _c("div")
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-12 mb-3" }, [
-      _c("h1", {}, [_vm._v(" Word Counter and Calculator ")]),
-      _vm._v(" "),
-      _c("p", { staticClass: "h2 indigo font-weight-bold" }, [
-        _vm._v("Easily calculate the number of the words and your rate.")
-      ]),
-      _vm._v(" "),
-      _c("hr", { staticClass: "shadow" })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("label", { attrs: { for: "rate" } }, [
-      _vm._v("Enter your rate per 1000 words "),
-      _c("small", { staticClass: "text-secondary" }, [_vm._v("EUR / USD")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
