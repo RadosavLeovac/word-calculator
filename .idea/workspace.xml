@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9857aa7-4f05-4258-be97-bb231b307398" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/test.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +158,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -187,7 +185,8 @@
       <workItem from="1600287474759" duration="19631000" />
       <workItem from="1600347202517" duration="2713000" />
       <workItem from="1600350347338" duration="5669000" />
-      <workItem from="1600456620125" duration="12571000" />
+      <workItem from="1600456620125" duration="13268000" />
+      <workItem from="1600549360507" duration="566000" />
     </task>
     <servers />
   </component>
@@ -214,10 +213,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600307338269" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600374917059">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600522227370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600374917059" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600522227370" />
     <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600307361503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
