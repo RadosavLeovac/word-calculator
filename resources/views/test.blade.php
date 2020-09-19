@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-md-12">
                     <div class="alert alert-primary shadow-sm mb-3 h3 font" role="alert">
-                        Words: <span class="font-weight-bold" v-text="wcount"> |</span> Characters: <span class="font-weight-bold" v-text="ccount"> |</span> Sentences: <span class="font-weight-bold" v-text="scount"></span>
+                        Words: <span class="font-weight-bold" v-text="wcount"></span> | Characters: <span class="font-weight-bold" v-text="ccount"> </span> | Sentences: <span class="font-weight-bold" v-text="scount"></span>
                     </div>
                     <div class="form-group">
                         <label for="rate">Enter your rate per 1000 words <small class="text-secondary">EUR / USD</small></label>
