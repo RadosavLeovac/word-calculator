@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9857aa7-4f05-4258-be97-bb231b307398" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +187,8 @@
       <workItem from="1600347202517" duration="2713000" />
       <workItem from="1600350347338" duration="5669000" />
       <workItem from="1600456620125" duration="13268000" />
-      <workItem from="1600549360507" duration="566000" />
+      <workItem from="1600549360507" duration="981000" />
+      <workItem from="1600550430641" duration="108000" />
     </task>
     <servers />
   </component>
@@ -233,13 +235,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600307361503" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1600550178070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600550178070" />
+    <state x="590" y="272" key="MultipleFileMergeDialog" timestamp="1600550178124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="272" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600550178124" />
     <state x="666" y="235" width="588" height="634" key="find.popup" timestamp="1600362028611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="235" width="588" height="634" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600362028611" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600467023799">
+    <state x="446" y="368" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1600550184234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600467023799" />
+    <state x="446" y="368" key="git4idea.rebase.GitUnstructuredEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600550184234" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600550282767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600550282767" />
   </component>
 </project>
