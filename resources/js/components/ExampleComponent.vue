@@ -52,12 +52,6 @@ export default {
             this.price = (this.wcount * (this.rate / 1000)).toFixed(2);
 
         },
-        priceCount() {
-            this.price = this.userinput.length * this.rate;
-        },
-        reportBug() {
-            console.log('aaaaaaaaaaaaa')
-        }
     }
 
 }

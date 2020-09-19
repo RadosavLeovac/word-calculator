@@ -1899,6 +1899,41 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CalculatorComponent.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CalculatorComponent.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      wcount: 0,
+      ccount: 0,
+      scount: 0,
+      price: 0,
+      rate: '',
+      userinput: ''
+    };
+  },
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  },
+  methods: {
+    charCount: function charCount() {
+      this.ccount = this.userinput.length;
+      this.wcount = this.userinput.split(/\b[-?(\w+)'?]+\b/gi).length - 1;
+      this.scount = this.userinput.split(/[.|!|?]+/g).length - 1;
+      this.price = (this.wcount * (this.rate / 1000)).toFixed(2);
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
@@ -1908,6 +1943,29 @@ module.exports = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -1932,12 +1990,6 @@ __webpack_require__.r(__webpack_exports__);
       this.wcount = this.userinput.split(/\b[-?(\w+)'?]+\b/gi).length - 1;
       this.scount = this.userinput.split(/[.|!|?]+/g).length - 1;
       this.price = (this.wcount * (this.rate / 1000)).toFixed(2);
-    },
-    priceCount: function priceCount() {
-      this.price = this.userinput.length * this.rate;
-    },
-    reportBug: function reportBug() {
-      console.log('aaaaaaaaaaaaa');
     }
   }
 });
@@ -37526,9 +37578,126 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row justify-content-center" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-12" }, [
+        _c(
+          "div",
+          {
+            staticClass: "alert alert-primary shadow-sm mb-3 h3 font",
+            attrs: { role: "alert" }
+          },
+          [
+            _vm._v("\n                Words: "),
+            _c("span", { staticClass: "font-weight-bold" }, [
+              _vm._v(_vm._s(_vm.wcount) + " |")
+            ]),
+            _vm._v(" Characters: "),
+            _c("span", { staticClass: "font-weight-bold" }, [
+              _vm._v(_vm._s(_vm.ccount) + " |")
+            ]),
+            _vm._v(" Sentences: "),
+            _c("span", { staticClass: "font-weight-bold" }, [
+              _vm._v(_vm._s(_vm.scount))
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "form-group" }, [
+          _vm._m(1),
+          _vm._v(" "),
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.rate,
+                expression: "rate"
+              }
+            ],
+            staticClass: "form-control shadow-sm mb-3",
+            attrs: { id: "rate", type: "number" },
+            domProps: { value: _vm.rate },
+            on: {
+              input: [
+                function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.rate = $event.target.value
+                },
+                function($event) {
+                  return _vm.charCount()
+                }
+              ]
+            }
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "h4" }, [
+            _vm._v("Total amount: " + _vm._s(_vm.price) + " "),
+            _c("small", { staticClass: "text-muted" }, [_vm._v("EUR / USD")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "form-group" }, [
+          _c("label", { attrs: { for: "input" } }),
+          _vm._v(" "),
+          _c("textarea", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.userinput,
+                expression: "userinput"
+              }
+            ],
+            staticClass: "form-control shadow",
+            attrs: { name: "", id: "input", cols: "30", rows: "15" },
+            domProps: { value: _vm.userinput },
+            on: {
+              keyup: function($event) {
+                return _vm.charCount()
+              },
+              input: function($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.userinput = $event.target.value
+              }
+            }
+          })
+        ])
+      ])
+    ])
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 mb-3" }, [
+      _c("h1", {}, [_vm._v(" Word Counter and Calculator ")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "h2 indigo font-weight-bold" }, [
+        _vm._v("Easily calculate the number of the words and your rate.")
+      ]),
+      _vm._v(" "),
+      _c("hr", { staticClass: "shadow" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("label", { attrs: { for: "rate" } }, [
+      _vm._v("Enter your rate per 1000 words "),
+      _c("small", { staticClass: "text-secondary" }, [_vm._v("EUR / USD")])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -49723,6 +49892,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+Vue.component('calculator-component', __webpack_require__(/*! ./components/CalculatorComponent */ "./resources/js/components/CalculatorComponent.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -49777,6 +49947,56 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/CalculatorComponent.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/CalculatorComponent.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CalculatorComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CalculatorComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/CalculatorComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+var render, staticRenderFns
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  _CalculatorComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"],
+  render,
+  staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/CalculatorComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/CalculatorComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/CalculatorComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalculatorComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./CalculatorComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CalculatorComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CalculatorComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
